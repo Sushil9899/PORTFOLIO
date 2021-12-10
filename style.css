@@ -1,0 +1,72 @@
+h1 {
+    color: white;
+    margin-left:80px;
+    padding-left: 20px;
+
+    
+}
+
+/* * {
+    border: solid;
+} */
+.header *{
+    border:solid
+}
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.menu{
+    margin-right: 200px;
+}
+.menu a{
+    margin-left:40px
+}
+.item{
+    position:relative
+}
+.item p{
+    position: absolute;
+    top:50% ;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.item:hover p{
+    opacity:0.3;
+}
+.menu:hover a{
+    opacity: 0.2;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+body{
+    background-color: #808080
+}
+aside {
+    padding: 40px;
+    background-image: url("youtube.png");
+    background-position: 0 0;
+    background-origin: content-box;
+}
